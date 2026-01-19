@@ -86,39 +86,39 @@ export default function Services() {
     <section id="services" className="py-24 md:py-40 bg-white">
       <div className="container-custom">
         <div className="mb-24 flex flex-col md:flex-row md:items-end justify-between">
-          <div>
-            <h2 className="text-4xl md:text-6xl font-bold text-black mb-6 tracking-tight">What We Do</h2>
-            <div className="w-32 h-2 bg-[var(--accent)]"></div>
-          </div>
-          <p className="text-xl text-gray-500 max-w-md mt-8 md:mt-0">
-             We deliver end-to-end technical excellence for complex environments.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {services.map((service, index) => (
-            <div 
-              key={index} 
-              className={`group relative p-10 border border-gray-200 hover:border-black transition-colors duration-500 flex flex-col justify-between h-[300px] md:h-[400px] bg-gray-50 hover:bg-white overflow-hidden ${service.area}`}
-            >
-              {service.graphic}
-              
-              <div className="absolute top-10 right-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
-                 <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                   <path d="M7 17L17 7M17 7H7M17 7V17" stroke="black" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
-                 </svg>
-              </div>
-              
-              <div className="relative z-10 mt-auto">
-                <h3 className="text-3xl md:text-4xl font-bold text-black tracking-tight leading-none mb-4 group-hover:translate-y-[-4px] transition-transform duration-300">
-                  {service.title}
-                </h3>
-                <p className="text-xl text-gray-500 group-hover:text-black transition-colors duration-300 max-w-sm">
-                  {service.description}
-                </p>
-              </div>
+            <div>
+              <h2 className="text-4xl md:text-6xl font-bold text-black mb-6 tracking-tight">What We Do</h2>
+              <div className="w-32 h-2 bg-[var(--accent)]"></div>
             </div>
-          ))}
+            <p className="text-xl text-gray-500 max-w-md mt-8 md:mt-0">
+               We deliver end-to-end technical excellence for complex environments.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {services.map((service, index) => (
+              <div 
+                key={index} 
+                className={`group relative p-10 border border-gray-200 hover:border-black transition-colors duration-500 flex flex-col justify-between h-[300px] md:h-[400px] bg-gray-50 hover:bg-white overflow-hidden ${service.area}`}
+              >
+                {service.graphic}
+                
+                <div className="absolute top-10 right-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                   <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M7 17L17 7M17 7H7M17 7V17" stroke="black" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
+                   </svg>
+                </div>
+                
+                <div className="relative z-10 mt-auto">
+                  <h3 className="text-3xl md:text-4xl font-bold text-black tracking-tight leading-none mb-4 group-hover:translate-y-[-4px] transition-transform duration-300">
+                    {service.title}
+                  </h3>
+                  <p className="text-xl text-gray-500 group-hover:text-black transition-colors duration-300 max-w-sm">
+                    {service.description}
+                  </p>
+                </div>
+              </div>
+            ))}
         </div>
       </div>
     </section>

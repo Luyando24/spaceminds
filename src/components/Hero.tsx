@@ -16,7 +16,7 @@ export default function Hero() {
 
   return (
     <section className="min-h-screen flex items-center pt-20 md:pt-24 bg-white">
-      <div className="container-custom">
+      <div className="container-custom w-full">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-black leading-[0.95] mb-8 animate-fade-in-up text-left">
           <span className="block">Digital Infrastructure for</span>
           <span key={textIndex} className="text-gray-400 animate-fade-in-up block min-w-[300px]">
