@@ -11,7 +11,12 @@ export default function CTA() {
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl mx-auto">
             Partner with a team that values precision, security, and long-term impact.
           </p>
-          <Button variant="primary" size="large">
+          <Button 
+            variant="primary" 
+            size="large" 
+            href="https://wa.me/260975471081"
+            target="_blank"
+          >
             Schedule a Consultation
           </Button>
         </div>

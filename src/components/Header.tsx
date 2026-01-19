@@ -31,7 +31,7 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:block relative z-10">
-            <Button variant="primary" size="default">
+            <Button variant="primary" size="default" href="https://wa.me/260975471081" target="_blank">
               Start a Project
             </Button>
           </div>
@@ -80,7 +80,7 @@ export default function Header() {
               Contact
             </Link>
             <div className="mt-8">
-              <Button variant="primary" size="default">
+              <Button variant="primary" size="default" href="#contact" onClick={() => setIsMenuOpen(false)}>
                 Start a Project
               </Button>
             </div>
