@@ -46,6 +46,9 @@ export const metadata: Metadata = {
     description: "Premium software development for governments, NGOs, and large institutions.",
     creator: "@spaceminds",
   },
+  verification: {
+    google: "z5IuQJpLIA0qg4xH42F-PIkDKK0eBOnYOFiF3rZQn4Y",
+  },
   robots: {
     index: true,
     follow: true,
