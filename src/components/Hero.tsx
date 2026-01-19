@@ -15,7 +15,7 @@ export default function Hero() {
   }, [words.length]);
 
   return (
-    <section className="min-h-screen flex items-center pt-24 bg-white">
+    <section className="min-h-screen flex items-center pt-20 md:pt-24 bg-white">
       <div className="container-custom">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-black leading-[0.95] mb-8 animate-fade-in-up text-left">
           <span className="block">Digital Infrastructure for</span>
