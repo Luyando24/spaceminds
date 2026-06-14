@@ -1,9 +1,9 @@
 export default function Credibility() {
   const stats = [
-    { label: "Major Projects", value: "20+" },
-    { label: "Enterprise Clients", value: "50+" },
-    { label: "Countries Served", value: "15" },
-    { label: "Users Impacted", value: "10M+" },
+    { label: "Major Projects", value: "15+" },
+    { label: "Major Enterprise Clients", value: "10+" },
+    { label: "Countries Served", value: "6" },
+    { label: "Users Impacted", value: "1M+" },
   ];
 
   return (

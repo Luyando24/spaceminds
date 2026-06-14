@@ -31,7 +31,7 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:block relative z-10">
-            <Button variant="primary" size="default" href="https://wa.me/260975471081" target="_blank">
+            <Button variant="primary" size="default" href="https://wa.me/8614768628270" target="_blank">
               Start a Project
             </Button>
           </div>

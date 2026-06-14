@@ -9,36 +9,67 @@ export default function SelectedWork() {
 
   const projects = [
     {
-      client: "Ministry of Health",
-      project: "National Health Registry",
-      type: "Government",
-      impact: "Unified 50M+ patient records securely across 2,000+ facilities.",
+      client: "Muchi",
+      project: "School Management System",
+      type: "EdTech",
+      impact: "A comprehensive school management system designed for Zambia's educational institutions, featuring fast student enrollment with NRC, instant ID cards, and seamless multi-school access.",
       year: "2024",
-      image: "https://images.unsplash.com/photo-1516549655169-df83a083fc9b?auto=format&fit=crop&q=80&w=2000" // Medical/Tech abstract
+      image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&q=80&w=2000",
+      url: "https://www.muchiapp.com/"
     },
     {
-      client: "TechNova Solutions",
-      project: "Enterprise Cloud Migration",
-      type: "Enterprise",
-      impact: "Zero-downtime migration of critical banking infrastructure for 5M users.",
+      client: "Soccer Circular",
+      project: "Football Club Management System",
+      type: "SportsTech",
+      impact: "A professional football academy management system enabling streamlined player registration, training schedules, performance tracking, and FIFA compliance management.",
       year: "2024",
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2000" // Tech/Cloud/Data
+      image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80&w=2000",
+      url: "https://www.soccercircular.com/"
     },
     {
-      client: "UNESCO",
-      project: "Global Education Initiative",
-      type: "NGO",
-      impact: "Connecting 2M+ students in remote regions to digital curricula.",
-      year: "2023",
-      image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=2000" // Education/Kids/Classroom
+      client: "ZGF",
+      project: "NGO Website & Knowledge Hub",
+      type: "NGO / Civil Society",
+      impact: "A national digital platform supporting civic engagement, community philanthropy, and local community-led development initiatives across 10 provinces of Zambia.",
+      year: "2024",
+      image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=2000",
+      url: "https://zgf.org.zm/"
     },
     {
-      client: "City Transport Authority",
-      project: "Urban Mobility System",
-      type: "Government",
-      impact: "Reducing congestion by 30% through real-time AI traffic management.",
+      client: "Zamora",
+      project: "Hotel Management System",
+      type: "Hospitality / SaaS",
+      impact: "An all-in-one cloud-native property management and smart POS ecosystem built for speed and growth, serving hotels, lodges, and restaurants across Zambia.",
       year: "2024",
-      image: "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?auto=format&fit=crop&q=80&w=2000" // City/Traffic/Motion
+      image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2000",
+      url: "https://get.zamoraapp.com/"
+    },
+    {
+      client: "HMS Demo",
+      project: "Hospital Management System",
+      type: "HealthTech / SaaS",
+      impact: "A next-generation healthcare management platform designed to optimize clinical workflows, medical records management, and administrative operations for clinics and hospitals.",
+      year: "2024",
+      image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=2000",
+      url: "https://hms-demo-rosy.vercel.app/"
+    },
+    {
+      client: "Spur Wellness",
+      project: "E-commerce Website",
+      type: "E-commerce / Fitness",
+      impact: "A modern, premium e-commerce platform for high-performance fitness equipment and artificial gym turf, designed with minimalistic aesthetics and smooth buying flows.",
+      year: "2024",
+      image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&q=80&w=2000",
+      url: "https://spur-wellness.vercel.app/"
+    },
+    {
+      client: "Government of Zambia",
+      project: "Zamportal",
+      type: "GovTech / Public Service",
+      impact: "A secure digital gateway to public services in Zambia, enabling citizens to access government services, apply for official documents, and pay fees online 24/7.",
+      year: "2024",
+      image: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=2000",
+      url: "https://zamportal.vercel.app/"
     }
   ];
 
@@ -100,7 +131,9 @@ export default function SelectedWork() {
                         <span className="text-sm text-gray-400 font-mono">/ {currentProject.year}</span>
                       </div>
                       <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-6 leading-tight group-hover:underline decoration-4 underline-offset-8 decoration-[var(--accent)]">
-                        {currentProject.project}
+                        <a href={currentProject.url} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--accent)] transition-colors">
+                          {currentProject.project}
+                        </a>
                       </h3>
                       <p className="text-xl text-gray-500 mb-8">{currentProject.client}</p>
                     </div>
@@ -109,16 +142,26 @@ export default function SelectedWork() {
                       <p className="text-xl md:text-2xl text-gray-700 font-light leading-relaxed mb-8">
                         {currentProject.impact}
                       </p>
-                      <div className="flex items-center gap-2 text-black font-bold group-hover:translate-x-2 transition-transform duration-300 cursor-pointer">
-                        Read Case Study
+                      <a 
+                        href={currentProject.url} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="inline-flex items-center gap-2 text-black font-bold group-hover:translate-x-2 transition-transform duration-300 cursor-pointer hover:text-[var(--accent)]"
+                      >
+                        Visit Website
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
-                      </div>
+                      </a>
                     </div>
                  </div>
 
-                 <div className="relative h-[300px] lg:h-auto order-1 lg:order-2 overflow-hidden bg-gray-100">
+                 <a 
+                   href={currentProject.url} 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   className="relative h-[300px] lg:h-auto order-1 lg:order-2 overflow-hidden bg-gray-100 block"
+                 >
                     <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
                     <Image 
                       src={currentProject.image} 
@@ -128,7 +171,7 @@ export default function SelectedWork() {
                       sizes="(max-width: 1024px) 100vw, 50vw"
                       priority
                     />
-                 </div>
+                 </a>
               </div>
             </div>
             

@@ -2,18 +2,13 @@ import React from 'react';
 
 export default function Marquee() {
   const clients = [
-    "Ministry of Health",
-    "UNESCO",
-    "World Bank",
-    "TechNova Solutions",
-    "Department of Energy",
-    "City Transport Authority",
-    "Alpha Retail Group",
-    "Global Education Initiative",
-    "National Digital Service",
-    "Civic Tech Alliance",
-    "Nexus Logistics",
-    "GreenLeaf Energy"
+    "Muchi App",
+    "Soccer Circular",
+    "ZGF",
+    "Zamora",
+    "HMS Demo",
+    "Spur Wellness",
+    "Zamportal"
   ];
 
   return (
