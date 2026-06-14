@@ -27,8 +27,8 @@ export default function Hero() {
           We partner with governments, enterprises, and SMEs to build secure, scalable, and impact-driven software systems that serve millions.
         </p>
         <div className="flex flex-col sm:flex-row gap-6 animate-fade-in-up delay-200">
-          <Button variant="primary" size="large" className="text-lg" href="#work">
-            View Selected Work
+          <Button variant="primary" size="large" className="text-lg" href="/work">
+            Our Portfolio
           </Button>
           <Button variant="outline" size="large" className="text-lg" href="https://wa.me/8614768628270" target="_blank">
             Partner With Us

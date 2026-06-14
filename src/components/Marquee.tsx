@@ -8,7 +8,7 @@ export default function Marquee() {
     "Zamora",
     "HMS Demo",
     "Spur Wellness",
-    "Zamportal"
+    "Zamportal Companion"
   ];
 
   return (

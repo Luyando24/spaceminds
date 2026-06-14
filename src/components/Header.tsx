@@ -19,8 +19,8 @@ export default function Header() {
             <Link href="#services" className="text-sm font-medium text-gray-600 hover:text-black hover:underline hover:decoration-[var(--accent)] hover:decoration-2 hover:underline-offset-4 transition-all">
               Services
             </Link>
-            <Link href="#work" className="text-sm font-medium text-gray-600 hover:text-black hover:underline hover:decoration-[var(--accent)] hover:decoration-2 hover:underline-offset-4 transition-all">
-              Selected Work
+            <Link href="/work" className="text-sm font-medium text-gray-600 hover:text-black hover:underline hover:decoration-[var(--accent)] hover:decoration-2 hover:underline-offset-4 transition-all">
+              Portfolio
             </Link>
             <Link href="#about" className="text-sm font-medium text-gray-600 hover:text-black hover:underline hover:decoration-[var(--accent)] hover:decoration-2 hover:underline-offset-4 transition-all">
               About
@@ -59,11 +59,11 @@ export default function Header() {
               Services
             </Link>
             <Link 
-              href="#work" 
+              href="/work" 
               className="text-2xl font-bold text-black"
               onClick={() => setIsMenuOpen(false)}
             >
-              Selected Work
+              Portfolio
             </Link>
             <Link 
               href="#about" 
