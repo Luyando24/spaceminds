@@ -1,5 +1,14 @@
 export const projects = [
   {
+    client: "Savora",
+    project: "Village Banking & Cooperative Platform",
+    type: "FinTech / SaaS",
+    impact: "A secure village banking and cooperative management platform for Zambia, enabling savings groups, agricultural co-ops, and SACCOs to track member registries, contributions, loans, and payouts securely with Airtel & MTN Mobile Money.",
+    year: "2026",
+    image: "https://images.unsplash.com/photo-1601597111158-2fceff292cac?auto=format&fit=crop&q=80&w=2000",
+    url: "https://savora-alpha.vercel.app/"
+  },
+  {
     client: "Muchi",
     project: "School Management System",
     type: "EdTech",
