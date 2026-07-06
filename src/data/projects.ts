@@ -1,5 +1,14 @@
 export const projects = [
   {
+    client: "SiteWatch 360",
+    project: "Smart Tower & Telecom Infrastructure Monitoring Platform",
+    type: "IoT / Telecom SaaS",
+    impact: "A unified intelligence platform for real-time telecom tower and infrastructure monitoring, providing crucial analytics on uptime, power grids, fuel consumption, active security, and commercial billing.",
+    year: "2026",
+    image: "https://images.unsplash.com/photo-1610018556010-6a11691bc905?auto=format&fit=crop&q=80&w=2000",
+    url: "https://sitewatch360.vercel.app/"
+  },
+  {
     client: "Savora",
     project: "Village Banking & Cooperative Platform",
     type: "FinTech / SaaS",
