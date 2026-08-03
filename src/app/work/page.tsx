@@ -114,7 +114,7 @@ export default function WorkPage() {
             <Button 
               variant="primary" 
               size="large" 
-              href="https://wa.me/260570260374"
+              href="https://wa.me/260975471081"
               target="_blank"
             >
               Start a Project
