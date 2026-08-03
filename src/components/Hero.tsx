@@ -30,7 +30,7 @@ export default function Hero() {
           <Button variant="primary" size="large" className="text-lg" href="/work">
             Our Portfolio
           </Button>
-          <Button variant="outline" size="large" className="text-lg" href="https://wa.me/8614768628270" target="_blank">
+          <Button variant="outline" size="large" className="text-lg" href="https://wa.me/260570260374" target="_blank">
             Partner With Us
           </Button>
         </div>
