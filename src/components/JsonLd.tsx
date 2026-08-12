@@ -13,7 +13,7 @@ export default function JsonLd() {
     },
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+260-975-471-081',
+      telephone: '+260570260374',
       contactType: 'customer service',
       areaServed: 'Global',
       availableLanguage: ['English', 'French', 'Spanish']
