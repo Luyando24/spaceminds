@@ -54,13 +54,13 @@ export const projects = [
     url: "https://get.zamoraapp.com/"
   },
   {
-    client: "HMS Demo",
+    client: "HMS - Kunda Health Care",
     project: "Hospital Management System",
     type: "HealthTech / SaaS",
-    impact: "A next-generation healthcare management platform designed to optimize clinical workflows, medical records management, and administrative operations for clinics and hospitals.",
-    year: "2024",
+    impact: "A comprehensive hospital management platform built for Dr. Kunda Bwalya Memorial Clinic, optimizing clinical workflows, diagnostic laboratory tracking, 24/7 emergency care, and digital patient portal services.",
+    year: "2026",
     image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=2000",
-    url: "https://hms-demo-rosy.vercel.app/"
+    url: "https://www.kundahealthcare.org/"
   },
   {
     client: "Spur Wellness",

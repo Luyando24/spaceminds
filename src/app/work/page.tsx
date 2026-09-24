@@ -6,7 +6,7 @@ import Button from '@/components/Button';
 
 export const metadata = {
   title: "Our Selected Work | SpaceMinds",
-  description: "Explore the digital systems, software platforms, and mobile apps built by SpaceMinds for school administration, hospitality, NGOs, sports academies, and e-commerce.",
+  description: "Explore the digital systems, software platforms, and mobile apps built by SpaceMinds for school administration, healthcare, hospitality, NGOs, sports academies, and e-commerce.",
 };
 
 export default function WorkPage() {

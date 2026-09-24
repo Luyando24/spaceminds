@@ -6,7 +6,7 @@ export default function Marquee() {
     "Soccer Circular",
     "ZGF",
     "Zamora",
-    "HMS Demo",
+    "HMS - Kunda Health Care",
     "Spur Wellness",
     "Zamportal Companion"
   ];
